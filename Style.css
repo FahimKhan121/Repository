@@ -1,0 +1,230 @@
+/* Dafoult Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* Header CSS */
+.fixed-with{}
+img{
+    max-width: 45%;
+    float: right;
+}
+.text-center{
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.header{
+    background-color: #3498db;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img{
+    width: 212px;
+    height: outo;
+    
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+}
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 60px;
+    border-right: 1px solid rgb(255, 255, 255);
+    line-height: 70px;
+}
+.header-right ul li a:hover{
+    background: #2980b9;
+}
+
+
+
+/* Banner */
+.banner{
+    background: url(Img/Car.jpg) no-repeat;
+    padding: 300px;
+    background-size: cover;
+    color: #e74c3c;
+    margin-top: auto;
+}
+/* About */
+.About{
+    margin-top: 60px;
+}
+.About h2{
+    font-size: 78px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.About p{
+    text-align: center;
+    font-size: 23px;
+}
+/* Service Section */
+.sevice{
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.service-item{
+    float: left;
+    width: 31.3%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.service-item span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #3498db;
+    color: #fff;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+}
+.service-item h3{
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+
+
+/* Blog Section */
+.blog-container{
+    margin: 60px 0;
+}
+.blog-left-Content{
+    float: left;
+    width: 70%;
+}
+.blog-left-Notificaition{
+    float: right;
+    width: 25%;
+}
+.blog-item img{
+    float: left;
+    width: 160px;
+    height: auto;
+    margin-right: 10px;
+}
+/* Blog Notificaition */
+.blog-left-Notifacaition{}
+.blog-left-Notifacaition h2{
+    font-size: 32px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+}
+.blog-left-Notifacaition ul{
+    list-style: none;
+}
+.blog-left-Notifacaition ul li{
+    border: 1px solid #dddd;
+    background: #fafafa;
+    padding: 17px;
+    font-size: 20px;
+    margin-bottom: 9px;
+    border-radius: 10px;
+    display: inline-block;
+}
+/* Footer */
+.footer{
+    background: #2c3e50;
+    color: white;
+    font-size: 29px;
+    float: left;
+    margin: 27px;
+    padding: 0px;
+    margin-top: 87px;
+    margin-left: -300px;
+    height: 37px;
+    width: 1377px;
+}
+.footer-left{
+    float: left;
+    width: 40%;
+}
+.footer-right{
+    float: right;
+    width: 60%;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: revert;
+    margin-top: auto;
+    font-size: 50px;
+    margin-top: 7px;
+}
+.social-manu{
+    font-size: 32px;
+    margin-top: -5px;
+}
+.social-manu li{
+    display: inline-block;
+}
+.social-manu a{
+    color: white;
+    margin: 75px;
+}
+.social-manu a:hover{}
+.fab fa-facebook{
+    color: #3498db;
+}
+.i.fab.fa-facebook{
+    color:#3498db;
+}
+.page-1-h{
+    text-align: center;
+    margin-top: 250px;
+}
+
+
+
+
+
+
+
+.social-menu-h5{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.My-pic{
+    max-width: 45%;
+    float: right;
+    margin-right: 452px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.My-h1{
+    border: 1px solid black;
+    width: 191px;
+    background: #3498db;
+    display: flex;
+    margin-left: 137px;
+}
